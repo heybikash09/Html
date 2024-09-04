@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <style>
+       body{
+        background: #4dc4aa;
+       }
+       #n{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <h4 id="n">Types Of Inputs</h4>
+    <form action="url" method="get">
+        <label for="Sname">Student Name</label>
+        <input type="text" name="" placeholder="First Name" value="biki" id="Sname">
+        <input type="text" name="" placeholder="Last Name" value="Ghad" id="Sname">
+        <input type="reset" value="reset"><br>
+        <label for="Sname">Week and Year</label><br>
+        <input type="week"  id=""><br>
+        <label for="x">datetime</label><br>
+        <input type="datetime-local" name="" id="x"><br>
+        <label for="Sname">Search Anything</label><br>
+        <input type="search" name="baisj" id="" >
+        <button type="submit">Search</button><br>
+        <label for="Sname">Select country</label><br>
+        <select name="" id="Sname">
+           <option value="">India</option>
+           <option value="">Pakistan</option>
+           <option value="">China</option>
+        </select><br>
+        <label for="Sname">Capital</label><br>
+        <input list="editors">
+        <datalist id="editors">
+            <option value="Delhi">INDIA</option>
+            <option value="Islamabad">PAKISTAN</option>
+            <option value="Bejing">CHINA</option>
+        </datalist>
+        <button type="submit">Submit</button>
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
